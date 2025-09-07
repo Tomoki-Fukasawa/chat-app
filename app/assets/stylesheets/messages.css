@@ -1,0 +1,34 @@
+.wrapper{
+  display: flex;
+}
+/*side_bar*/
+.side_bar{
+  height: 100vh;
+  width: 300px;
+}
+
+.side_bar_header{
+  height: 100px;
+  background-color: #253141;
+}
+.side_bar_lists{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+}
+/*main_chat*/
+.main_chat{
+  height:100vh;
+  width: calc( 100vw - 300px );
+}
+.main_header{
+  height: 100px;
+  background-color: #ffffff;
+}
+.main_content{
+  height: calc( 100vh - 190px);
+  background-color: #FAFAFA;
+}
+.main_footer{
+  height: 90px;
+  background-color: #dddddd;
+}
